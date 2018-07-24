@@ -1,0 +1,306 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+/*header style start*/
+
+header {}
+
+
+.wrapper {
+	width: 95%;
+	margin: 0 auto;
+	background-color: #DFDFDD;
+	overflow: hidden;
+
+}
+
+.logo {
+	width: 20%;
+	float: left;
+	min-height: 70px;
+}
+
+.circle {
+	border: 1px solid black;
+	min-height: 50px;
+	margin-left: 22px;
+	width: 35%;
+	border-radius: 50%;
+	background-color: #BDBEC0;
+	margin-top: 8px;
+	border: transparent;
+}
+
+.nav {
+
+	float: right;
+}
+
+.nav ul {}
+
+.nav ul li {
+	border: 1px solid #525253;
+	min-height: 22px;
+	width: 79px;
+	float: left;
+	margin: auto 17px;
+	margin-top: 20px;
+	list-style: none;
+	background-color: #BDBEC0;
+	border: transparent;
+	border-radius: 5px;
+}
+
+.nav ul li a {
+	text-decoration: none;
+
+}
+
+/*header style start*/
+
+/*banner style start*/
+
+.wrapper_1 {
+	width: 95%;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+.banner {
+	overflow: hidden;
+	margin-top: 10px;
+}
+
+.banner_left {
+	width: 40%;
+	float: left;
+}
+
+.banner_left .banner_img {
+	border: 1px solid black;
+	min-height: 250px;
+	background-color: #DFDFDD;
+	border: transparent;
+}
+
+.banner_right {
+	float: right;
+	width: 58%;
+}
+
+.banner_right .banner_content {
+	border: 1px solid #525253;
+	min-height: 25px;
+	width: 80%;
+	margin-bottom: 20px;
+	margin-top: 20px;
+	background-color: #BDBEC0;
+	border: transparent;
+	border-radius: 5px;
+}
+
+
+
+.banner_right .banner_content_top {
+	border: 1px solid #525253;
+	min-height: 10px;
+	background-color: #DFDFDD;
+	margin-bottom: 10px;
+	border: transparent;
+	border-radius: 5px;
+}
+
+.banner_right .banner_content_bottom {
+	border: 1px solid #525253;
+	min-height: 10px;
+	background-color: #DFDFDD;
+	border: transparent;
+	margin-bottom: 10px;
+	border-radius: 5px;
+	
+}
+.bcb{
+	width: 80%;
+}
+.bct{
+	width: 80%;
+	margin-bottom: 30px;
+}
+ .first_child{
+	margin-top: 30px;
+}
+/*banner style end*/
+
+/*service style start*/
+.service_side{
+	margin-top: 10px;
+}
+.wrapper_2 {
+	width: 95%;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+.service_fack {
+	width: 100%;
+	overflow: hidden;
+
+}
+
+.service {
+	width: 32%;
+	margin-top: 20px;
+	float: left;
+
+}
+
+
+.service_child {
+/*	margin: 20px 25px;*/
+	    margin: 0 2%;
+    margin-top: 20px;
+}
+
+
+.service_img {
+	width: 100%;
+	min-height: 200px;
+	background-color: #DFDFDD;
+
+	border: 1px solid #525253;
+	border: transparent;
+}
+
+.service_tittle {
+	width: 70%;
+	min-height: 20px;
+	background-color: #BDBEC0;
+
+	border: 1px solid #525253;
+	margin-top: 10px;
+	border: transparent;
+	border-radius: 5px;
+}
+
+.service_content1 {
+	width: 100%;
+	min-height: 10px;
+	background-color: #DFDFDD;
+	border: 1px solid #525253;
+	margin-top: 5px;
+	border: transparent;
+	border-radius: 5px;
+}
+
+.service_content2 {
+	width: 100%;
+	min-height: 10px;
+	background-color: #DFDFDD;
+	border: 1px solid #525253;
+	margin-top: 5px;
+	border: transparent;
+	border-radius: 5px;
+}
+
+/*service style end*/
+
+/*contact start*/
+
+.wrapper_3 {
+	width: 95%;
+	margin: 0 auto;
+	overflow: hidden;
+	background-color: #DFDFDD;
+}
+
+.contact {
+	width: 20%;
+	float: left;
+}
+
+.contact_section {
+	margin: 25px;
+
+}
+
+.contact_1 {
+	width: 100%;
+	min-height: 15px;
+	border: 1px solid #525253;
+	margin-top: 5px;
+	border: transparent;
+	background-color: #525253;
+	margin-bottom: 15px;
+	border-radius: 5px;
+
+}
+
+.contact_2 {
+	width: 100%;
+	min-height: 10px;
+	background-color: #BDBEC0;
+	border: 1px solid #525253;
+	margin-top: 10px;
+	border: transparent;
+	border-radius: 5px;
+
+}
+
+.contact_info {
+	width: 100%;
+	min-height: 10px;
+	overflow: hidden;
+}
+
+.info1 {
+	border: 1px solid black;
+	min-height: 18px;
+	width: 17%;
+	float: left;
+/*	margin: 5px 3px;*/
+	background-color: #525253;
+	border: transparent;
+	border-radius: 5px;
+	    margin: 3% 1%;
+}
+
+/*contact end*/
+
+/*footer style start*/
+
+.wrapper_4 {
+	width: 95%;
+	margin: 0 auto;
+
+}
+
+.footer {
+	width: 100%;
+	overflow: hidden;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.footer_left {
+	width: 50%;
+	float: left;
+	min-height: 10px;
+	background-color: #BDBEC0;
+	border: 1px solid #525253;
+	border: transparent;
+	border-radius: 5px;
+}
+
+.footer_right {
+	width: 20%;
+	float: right;
+	min-height: 10px;
+	background-color: #BDBEC0;
+	border: 1px solid #525253;
+	border: transparent;
+	border-radius: 5px;
+}
+
+/*footer style end*/
